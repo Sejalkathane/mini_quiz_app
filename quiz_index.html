@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Quiz App</title>
+        <link rel="stylesheet" href="quiz_style.css">
+        <!-- <script src="index.js"></script> -->
+
+    </head>
+
+    <body>
+
+        <h1 class="main-heading">
+            🙄🎮Let's Play Quiz 🎮😎
+        </h1>
+
+        <div class="box">
+
+
+            <section class="small-nav">
+                <div id="small-nav-name">
+                    ... Interesting Question ...
+                </div>
+                <!-- <div id="timer">
+                    Time left :
+                    <div id="no">
+                        15s
+                    </div>
+                </div> -->
+            </section>
+
+
+            <section class="MCQ">
+
+                <div class="question"> QUE. Question Come hear</div>
+
+                <ul>
+                    <li>
+                        <div class="op1">
+                            <input type="radio" name="answer" id="ans1" class="answer">
+                            <label for="ans1" id="option1"> Answer Option</label>
+
+                        </div>
+
+                        <div class="op2">
+                            <input type="radio" name="answer" id="ans2" class="answer">
+                            <label for="ans2" id="option2"> Answer Option</label>
+                        </div>
+
+                        <div class="op3">
+                            <input type="radio" name="answer" id="ans3" class="answer">
+                            <label for="ans3" id="option3"> Answer Option</label>
+                        </div>
+
+                        <div class="op4">
+                            <input type="radio" name="answer" id="ans4" class="answer">
+                            <label for="ans4" id="option4"> Answer Option</label>
+                        </div>
+
+                    </li>
+
+                    <div>
+                        <button class="btn">SUBMIT</button>
+                    </div>
+
+                </ul>
+                
+            </section>
+            <div id="showscore" class="showarea"></div>
+        </div>
+
+
+
+
+        <script src="quiz_app.js"></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,178 @@
+body {
+    box-shadow: inset 0px 0px 50px 50px rgb(246, 212, 255);
+    /* background-image: linear-gradient(rgb(250, 183, 255), rgb(230, 34, 252)); */
+    height: 880px;
+    border-radius: 40px;
+
+}
+
+.main-heading {
+    /* background-color: red; */
+    text-align: center;
+    /* margin: 50px; */
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box {
+    background-image: radial-gradient(rgb(255, 164, 220), rgb(252, 79, 148));
+    max-width: 800px;
+    height: 550px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 2px 2px 4px 4px rgb(255, 255, 255), 4px 4px 8px 8px rgb(255, 252, 254);
+}
+
+.box .small-nav {
+    background-image: linear-gradient(rgb(255, 253, 253), rgb(254, 101, 239));
+    margin: 20px;
+    height: 70px;
+    width: 750px;
+    padding: 5px 5px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px 4px rgb(255, 250, 253), 4px 4px 8px 8px rgb(255, 149, 181);
+}
+
+#small-nav-name {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+    padding: 15px 20px;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+}
+/* 
+#timer {
+    background-image: radial-gradient(#2af6ec, rgb(214, 255, 255));
+    width: 130px;
+    float: right;
+    margin: 15px 50px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid rgb(0, 109, 128);
+    box-shadow: 1px 1px 2px 2px rgb(0, 255, 247);
+}  */
+
+
+#progressBar {
+    float: right;
+    background-color: rgb(42, 95, 99);
+    border-radius: 5px;
+    font-size: 20px;
+    border: 2px solid pink;
+}
+
+.MCQ {
+    background-color: #ff92d5;
+    height: 380px;
+    margin: 20px 20px;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+
+
+.question {
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+    font-size: 35px;
+    /* background-color: rgb(43, 186, 226); */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(255, 130, 182);
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(255, 0, 195);
+    background-image: linear-gradient(rgb(255, 210, 252) , rgb(255, 109, 206));
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px rgb(255, 255, 255) ,2px 2px 4px 4px  rgb(255, 0, 204);
+
+}
+
+.MCQ ul {
+    float: left;
+    /* background-color: red; */
+    height: 250px;
+    flex-direction: column;
+    width: 600px;
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+  
+}
+
+.MCQ ul li div {
+    /* float: left; */
+    position: relative;
+    font-size: 25px;
+    background-color: rgb(255, 208, 244);
+    width: 620px;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: rgb(79, 33, 79);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 1px 1px 2px 2px rgb(255, 255, 255) ,2px 2px 4px 4px  rgb(255, 0, 204);
+  
+}
+
+.MCQ ul li div:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 1px 1px 2px 2px rgb(249, 7, 197);
+    
+}
+
+.btn{
+    margin: auto;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-image: radial-gradient(rgb(255, 255, 255),rgb(220, 5, 174));
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: inset 1px 1px 2px 2px rgb(255, 255, 255) ,2px 2px 4px 4px  rgb(255, 0, 204);
+}
+
+.btn:hover{
+    box-shadow:  0px 0px 5px 5px rgb(201, 255, 252);
+}
+
+#showscore{
+    background-color: #d8f7ff;
+    margin-top: 10px;
+    /* padding: 10px 10px; */
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px 5px rgb(144, 214, 230) ,2px 2px 4px 4px  rgb(0, 255, 225);
+    margin: auto;
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.bt{
+    width: 80px;
+    height: 50px;
+    margin: 10px;
+    background-image: linear-gradient(rgb(255, 245, 249), rgb(255, 125, 177));
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 3px 3px rgb(255, 255, 255) ;
+}
+
+.bt:hover{
+    box-shadow: 1px 1px 5px 5px rgb(255, 85, 145);
+    cursor: pointer;
+}
